@@ -1,3 +1,16 @@
 // utils
 @import './utils/modern-normalize';
 @import './utils/_fonts';
+@import './utils/variables';
+
+// base 
+@import './base/reset';
+@import './base/base';
+
+// components
+@import './components/logo';
+@import './components/button';
+
+// layouts
+@import './layouts/header';
+@import './layouts/hero';
