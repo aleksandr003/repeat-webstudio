@@ -1,0 +1,32 @@
+.clients__list {
+    display: flex;
+}
+
+.clients__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.clients__link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    transition-property: color, border-color;
+    transition-duration: 500ms;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+}
+
+.clients__link svg {
+    fill: currentColor;
+}

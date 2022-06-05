@@ -1,0 +1,21 @@
+.work__list {
+    display: flex;
+}
+
+.work__item {
+    position: relative;
+}
+
+.work__text {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 27px 0;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+    background: rgba(47, 48, 58, 0.8);
+}
